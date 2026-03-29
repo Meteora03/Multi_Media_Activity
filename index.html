@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyle | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full top-0 bg-black/80 backdrop-blur border-b border-white/10 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-lg font-semibold tracking-widest">Welcome to my life</h1>
+      <ul class="flex space-x-6 text-sm text-gray-300">
+        <li><a href="#about" class="hover:text-white transition">About</a></li>
+        <li><a href="#hobbies" class="hover:text-white transition">Hobbies</a></li>
+        <li><a href="#goals" class="hover:text-white transition">Goals</a></li>
+        <li><a href="#purpose" class="hover:text-white transition">Purpose</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center justify-center text-center px-6">
+    <div>
+      <h2 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        Kyle Matthew <span class="text-gray-500">F. Almario</span>
+      </h2>
+      <p class="text-gray-400 max-w-xl mx-auto mb-6">
+    If you don't take risk, you can't create a future - Monkey D. Luffy
+      </p>
+      <div class="w-20 h-[2px] bg-white mx-auto"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-20 border-t border-white/10">
+    <h3 class="text-3xl font-semibold mb-8">About Me</h3>
+    <p class="text-gray-400 leading-relaxed text-lg">
+      I'm currently studying Bachelor of Science in Computer Science as a 3rd year student. 
+      I enjoy exploring different technologies and continuously improving my programming skills. 
+      I'm focused on building a strong foundation that will help me succeed in the tech industry.
+    </p>
+  </section>
+
+  <section id="hobbies" class="max-w-6xl mx-auto px-6 py-20 border-t border-white/10">
+  <h3 class="text-3xl font-semibold mb-12">Hobbies & Interests</h3>
+
+  <div class="space-y-6">
+
+    <!-- GAMING -->
+    <div class="border border-white/10 rounded-2xl overflow-hidden bg-white/5">
+      
+      <input type="checkbox" id="gaming" class="peer hidden">
+      
+      <label for="gaming" class="block p-6 cursor-pointer hover:bg-white/10 transition">
+        <div class="flex justify-between items-center mb-2">
+          <h4 class="text-xl font-semibold">🎮 Gaming</h4>
+          <span class="text-gray-400 peer-checked:hidden">+</span>
+          <span class="text-gray-400 hidden peer-checked:block">−</span>
+        </div>
+        <p class="text-gray-400 text-sm">
+          I enjoy playing both competitive and single player and story-driven about world building and lore
+        </p>
+      </label>
+
+      <!-- IMAGES -->
+      <div class="max-h-0 overflow-hidden peer-checked:max-h-[500px] transition-all duration-500">
+        <div class="grid md:grid-cols-3 gap-4 px-6 pb-6">
+          <img src="Images/eldenring.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/re9.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/reddead.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ANIME -->
+    <div class="border border-white/10 rounded-2xl overflow-hidden bg-white/5">
+      
+      <input type="checkbox" id="anime" class="peer hidden">
+      
+      <label for="anime" class="block p-6 cursor-pointer hover:bg-white/10 transition">
+        <div class="flex justify-between items-center mb-2">
+          <h4 class="text-xl font-semibold">📺 Anime & Manga</h4>
+          <span class="text-gray-400 peer-checked:hidden">+</span>
+          <span class="text-gray-400 hidden peer-checked:block">−</span>
+        </div>
+        <p class="text-gray-400 text-sm">
+          Watching anime and reading manga is one of my favorite ways to relax and enjoy 
+          unique stories, characters, and world-building.
+        </p>
+      </label>
+
+      <!-- IMAGES -->
+      <div class="max-h-0 overflow-hidden peer-checked:max-h-[500px] transition-all duration-500">
+        <div class="grid md:grid-cols-3 gap-4 px-6 pb-6">
+          <img src="Images/frieren.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/onepiece.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/jujutsu.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MUSIC -->
+    <div class="border border-white/10 rounded-2xl overflow-hidden bg-white/5">
+      
+      <input type="checkbox" id="music" class="peer hidden">
+      
+      <label for="music" class="block p-6 cursor-pointer hover:bg-white/10 transition">
+        <div class="flex justify-between items-center mb-2">
+          <h4 class="text-xl font-semibold">🎧 Music</h4>
+          <span class="text-gray-400 peer-checked:hidden">+</span>
+          <span class="text-gray-400 hidden peer-checked:block">−</span>
+        </div>
+        <p class="text-gray-400 text-sm">
+          I enjoy listening to different genres of music depending on my mood, 
+          whether relaxing, studying, or gaming.
+        </p>
+      </label>
+
+      <!-- IMAGES -->
+      <div class="max-h-0 overflow-hidden peer-checked:max-h-[500px] transition-all duration-500">
+        <div class="grid md:grid-cols-3 gap-4 px-6 pb-6">
+          <img src="Images/avril.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/linkinpark.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+          <img src="Images/eminem.jpg" class="rounded-lg border border-white/10 hover:scale-105 transition">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- GOALS -->
+  <section id="goals" class="max-w-5xl mx-auto px-6 py-20 border-t border-white/10">
+    <h3 class="text-3xl font-semibold mb-8">Goals</h3>
+    <p class="text-gray-400 text-lg leading-relaxed">
+      My goal is to become a skilled and successful programmer, particularly in 
+      software engineering or cybersecurity. I aim to build meaningful projects 
+      and continuously improve my abilities in the field.
+    </p>
+  </section>
+
+  <!-- PURPOSE -->
+  <section id="purpose" class="max-w-5xl mx-auto px-6 py-20 border-t border-white/10">
+    <h3 class="text-3xl font-semibold mb-8">Purpose</h3>
+    <p class="text-gray-400 text-lg leading-relaxed">
+      This website was created as a way to practice and improve my skills in web 
+      development. It serves as a foundation for future projects and helps me 
+      understand what areas I need to improve as I grow as a developer.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-10 border-t border-white/10 text-gray-500 text-sm">
+    <p>Introduce yourself with Tailwind - Activity in Multimedia Lab</p>
+  </footer>
+
+</body>
+</html>
